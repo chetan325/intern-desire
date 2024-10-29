@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza WebSite</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#home">Home</a> </li>
+                <li> <a href="#menu">Menu</a> </li>
+                <li> <a href="#order">Order</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <div class="Hero-text">
+            <h1>Wellcome to Delicious Pizza</h1>
+            <p>Hot and fresh Delivary right to your door (:) </p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Pizza-items</h2>
+        <div class="Pizza-items">
+            <h3>Margherita</h3>
+            <p>Classic pizza with tomato souce and cheess..</p>
+            <span>$10.9</span>
+        </div>
+        <div class="Pizza-items">
+            <h3>pepperoni</h3>
+            <p>pepperoni,chees and tomato sauce </p>
+            <span>$13.09</span>
+        </div>
+        <div class="Pizza-items">
+            <h3>Veggie</h3>
+            <p>A healthy mix of Veggis with chees  </p>
+            <span>$17.09</span>
+        </div>
+
+    </section>
+
+    <section id="Order">
+        <h2>Place Your Order</h2>
+        <form id="Order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="adderss"> Delivery Adderss:</label>
+            <input type="text" id="adderss" name="adderss" required>
+            <label for="Pizza">Choose Pizza</label>
+            <select id="pizza" name="pizza">
+                <option value="Margherita">Margherita</option>
+                <option value="pepperoni">pepperoni</option>
+                <option value="Veggie">Veggie</option>
+            </select>
+
+            <label for="Quantity">Quantity</label>
+            <input type="number" id="Quantity" name="Quantity" min="1" required>
+
+            <button type="submit">Order Now</button>
+            
+        </form>
+    </section>
+
+    <section id="content">
+        <h2>Contact-Us</h2>
+        <p> E-mail :: chetanbadiger325@gmail.com</p>
+        <p>Phone : 8884301895 </p>
+        <p> near pizza shop 2nd phase flavor town </p>
+    </section>
+    <Script src="script.js"></Script>
+</body>
+</html>
